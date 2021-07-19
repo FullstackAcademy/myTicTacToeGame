@@ -1,0 +1,39 @@
+
+body {
+    background-color: silver;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+main {
+    display: flex;
+    width: 80vh;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+#board {
+    justify-content: center;
+    text-align: center;
+}
+.cell {
+    background-color: darkgray;
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid gray;
+    font-size: 10vh;
+    display: grid;
+}
+
+#score {
+    text-align: center;
+}
+#player-turn, #winning-text, #restart{
+    text-align: center;
+}
